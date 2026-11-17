@@ -29,10 +29,9 @@ jobs:
         with:
           name: test-reports
           path: |
-            target/cucumber-reports/
-            target/HTMLReport/
-            target/HtmlReport/
-            target/ExcelReport/
-            target/PdfReport/
-            target/reports*/
+            Reports/cucumber-reports/
+            Reports/HTMLReport/
+            Reports/ExcelReport/
+            Reports/PdfReport/
+
           if-no-files-found: warn
